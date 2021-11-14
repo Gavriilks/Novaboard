@@ -36,6 +36,8 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     white-space: nowrap;
+    padding-left: 10px;
+    box-sizing: border-box;
 }
 .menu__inner:hover {
     transition: 0.2s linear;
@@ -43,7 +45,7 @@ body {
     border-top: solid 2px;
     border-bottom: solid 2px #f2f5f7;
 }
-/*-----------------------*/
+/*----------presentation info-------------*/
 
 
 .container__presentation {
@@ -51,7 +53,6 @@ body {
     height: 720px;
     max-width: 1920px;
     background: url(../img/background_sliderblock.jpg) center no-repeat;
-    
 }
 .container__presentation__inner {
     max-width: 980px;
@@ -63,7 +64,7 @@ body {
     justify-content: space-between;
 }
 .presentation__logo {
-   
+   padding-right: 20px;
 }
 .presentation__social {
     text-align: end;
@@ -77,8 +78,34 @@ body {
     color: #2c2783;
     text-decoration: none;
 }
-.search {
+.presentation__search {
+    position: relative;
+}
+.search__field {
+    width: 420px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #bfbeda;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search__button {
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    top: -4px;
+    right: 4px;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+    background-color: #ffffff;
     background-image: url(../img/3.png);
-    background-repeat: no-repeat;
-    background-position: right;
+}
+/*----------presentation slider-------------*/
+
+.container__slider {
+    padding-top: 15px;
+    margin: 0 auto;
 }
