@@ -1,3 +1,15 @@
+@font-face {
+    font-family: EuropeExt;
+    src: url(../fonts/EuropeExt\ Normal.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: EuropeExt;
+    src: url(../fonts/EuropeExt\ Bold.woff2);
+    font-weight: 700;
+    font-style: normal;
+}
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -66,6 +78,9 @@ body {
 .presentation__logo {
    padding-right: 20px;
 }
+.logo__cor {
+    max-width: 100%;
+}
 .presentation__social {
     text-align: end;
     text-transform: uppercase;
@@ -107,7 +122,40 @@ body {
 
 .container__slider {
     height: 493px;
-    width: 980px;
+    max-width: 980px;
     padding-top: 15px;
     margin: 0 auto;
+}
+.click__cor {
+    max-width: 100%;
+}
+
+/*-------------penopolisterol block--------------*/
+
+.container__penopolisterol {
+    margin: 0 auto;
+    height: 797px;
+    max-width: 1920px;
+    background: url(../img/background_Penopolisterol.jpg) center no-repeat;
+}
+.penopolisterol__logo {
+    padding-top: 69px;
+    max-width: 374px;
+    margin: 0 auto;
+}
+.penopolisterol__title {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: EuropeExt;
+    font-weight: 700;
+    font-size: 30px;
+    color: #073d79;
+}
+.penopolisterol__video {
+    margin: 0 auto;
+    height: 320px;
+    max-width: 575px;
 }
