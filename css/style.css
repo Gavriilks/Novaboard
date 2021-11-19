@@ -61,7 +61,7 @@ body {
 
 .container__presentation {
     margin: 0 auto;
-    height: 720px;
+    height: 748px;
     max-width: 1920px;
     background: url(../img/background_sliderblock.jpg) center no-repeat;
 }
@@ -183,4 +183,34 @@ body {
     margin: 0 auto;
     height: 320px;
     max-width: 575px;
+}
+.penopolisterol__text__container {
+    height: 160px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding-top: 46px;
+}
+.penopolisterol__text {
+    font-size: 14px;
+    color: #0a274d;
+    text-align: center;
+}
+.container__button {
+    width: 405px;
+    margin: 0 auto;
+}
+.penopolisterol__button {
+    background-image: url(../img/penopolisterol_button.jpg);
+    width: 405px;
+    height: 52px;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0px 2px 4px 2px #909090;
+    font-family: EuropeExt;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+    
 }
