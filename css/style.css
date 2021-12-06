@@ -64,6 +64,7 @@ body {
     height: 748px;
     max-width: 1920px;
     background: url(../img/background_sliderblock.jpg) center no-repeat;
+    background-size: cover;
 }
 .container__presentation__inner {
     max-width: 980px;
@@ -86,7 +87,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end; 
-    padding-top: -6px;
     padding-bottom: 8px;   
 }
 .social__text {
@@ -190,9 +190,15 @@ body {
 
 .container__penopolisterol {
     margin: 0 auto;
-    height: 797px;
     max-width: 1920px;
-    background: url(../img/background_Penopolisterol.jpg) center no-repeat;
+    padding-bottom: 23px;
+}
+.penopolisterol__media {
+    margin: 0 auto;
+    height: 550px;
+    max-width: 1920px;
+    background: url(../img/background_penopolisterol.jpg) center no-repeat;
+    background-size: cover;
 }
 .penopolisterol__logo {
     padding-top: 69px;
@@ -200,7 +206,7 @@ body {
     margin: 0 auto;
 }
 .penopolisterol__title {
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 20px;
     margin: 0;
     text-align: center;
@@ -212,16 +218,12 @@ body {
 }
 .penopolisterol__video {
     margin: 0 auto;
-    height: 320px;
     max-width: 575px;
 }
 .penopolisterol__text__container {
-    height: 160px;
     max-width: 980px;
     margin: 0 auto;
-    padding-top: 46px;
-}
-.penopolisterol__text {
+    padding-bottom: 45px;
     font-size: 14px;
     color: #0a274d;
     text-align: center;
@@ -243,4 +245,161 @@ body {
     color: #ffffff;
     text-transform: uppercase;
     cursor: pointer;
+}
+/*---------block sphere--------- */
+
+.container__sphere {
+    margin: 0 auto;
+    height: 826px;
+    max-width: 1920px;
+    background: url(../img/background_sphere.jpg) center no-repeat;
+    background-size: cover;
+}
+.container__sphere__inner {
+    margin: 0 auto;
+    max-width: 1225px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sphere__title {
+    margin: 0;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #073d79;
+    font-family: EuropeExt;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.sphere__info {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.info__leftside {
+    width: 610px;
+    background-image: url(../img/sphere_left.jpg);
+    background-repeat: no-repeat;
+}
+.info__rightside {
+    width: 610px;
+    background-image: url(../img/sphere_right.jpg);
+    background-repeat: no-repeat;
+}
+.info__title__left {
+    padding-right: 45px;
+    margin-top: 18px;
+    margin-bottom: 14px;
+    text-align: end;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.info__title__right {
+    padding-left: 43px;
+    margin-top: 18px;
+    margin-bottom: 14px;
+    text-align:start;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.info__list__left {
+    height: 223px;
+    margin: 0px;
+    padding-right: 45px;
+    text-align: end;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    list-style: none;
+    line-height: 1.7;
+}
+.info__list__right {
+    height: 223px;
+    margin: 0px;
+    padding-left: 47px;
+    text-align: start;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    list-style: none;
+    line-height: 1.7;
+}
+.list__left__inner {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #01983b;
+}
+.list__left__inner::before,
+.list__left__inner::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #01983b;
+}
+.list__right__inner {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #01983b;
+}
+.sphere__logo__left {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 25px;
+    width: 100%;
+    background: #eeeeee2b;
+}
+.logo__left__cor {
+    padding-right: 45px;
+}
+.sphere__logo__right {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 25px;
+    width: 100%;
+    background: #eeeeee2b;
+}
+.logo__right__cor {
+    padding-left: 51px;
+}
+.container__sphere__rhombus {
+    max-width: 1225px;
+    margin: 0 auto;
+}
+.sphere__rhombus {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.rhombus__inner {
+    background: url(../img/sphere_rhombus.png) no-repeat;
+    height: 190px;
+    width: 100%;
+}
+.sphere__rhombus li:nth-child(even) {
+    margin-top: 50px;
+}
+.rhombus__content {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.rhombus__text {
+    text-align: center;
+    padding-top: 100px;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #01983b;
+    text-transform: uppercase;
 }
