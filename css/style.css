@@ -312,7 +312,6 @@ body {
 .info__list__left {
     height: 223px;
     margin: 0px;
-    padding-right: 45px;
     text-align: end;
     font-size: 14px;
     color: #ffffff;
@@ -323,7 +322,7 @@ body {
 .info__list__right {
     height: 223px;
     margin: 0px;
-    padding-left: 47px;
+    padding-left: 0;
     text-align: start;
     font-size: 14px;
     color: #ffffff;
@@ -332,21 +331,48 @@ body {
     line-height: 1.7;
 }
 .list__left__inner {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
     background-color: #01983b;
+    position: relative;
 }
 .list__left__inner::before,
 .list__left__inner::after {
     content: '';
-    width: 20px;
-    height: 20px;
-    background: #01983b;
+    position: absolute;
+    top: 0;
+    width: 45px;
+    height: 100%;
+}
+.list__left__inner::before {
+    left: -45px;
+    background-color: rgba(1, 152, 59, 0.5);
+}
+.list__left__inner::after {
+    left: -90px;
+    background-color: rgba(1, 152, 59, 0.25);
 }
 .list__right__inner {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
     background-color: #01983b;
+    position: relative;
+}
+.list__right__inner::before,
+.list__right__inner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 45px;
+    height: 100%;
+}
+.list__right__inner::before {
+    right: -45px;
+    background-color: rgba(1, 152, 59, 0.5);
+}
+.list__right__inner::after {
+    right: -90px;
+    background-color: rgba(1, 152, 59, 0.25);
 }
 .sphere__logo__left {
     display: flex;
@@ -403,4 +429,5 @@ body {
     font-weight: 700;
     color: #01983b;
     text-transform: uppercase;
+    word-wrap: break-word;
 }
