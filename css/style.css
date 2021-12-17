@@ -431,3 +431,54 @@ body {
     text-transform: uppercase;
     word-wrap: break-word;
 }
+
+/*-----------block-table------------*/
+.container__specisifacions {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.container__table {
+    max-width: 980px;
+    margin: 0 auto;
+}
+.table__logo {
+    margin: 0 auto;
+    max-width: 374px;
+}
+.table__specifications {
+    margin: 0 auto;
+    width: 980px;
+    border: solid 4px #d5dfec;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+.table__title {
+    padding-bottom: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: EuropeExt;
+    font-weight: 700;
+    font-size: 30px;
+    color: #01983b;
+}
+.table__title__inner {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #f50000;
+}
+.table__content {
+    font-size: 14px;
+    font-weight: 400;
+    color: #043567;
+    text-transform: capitalize;
+}
+.table__specifications .table__content:nth-child(even) {
+    background-color: #f2f5f7;
+}
+
+.table__specifications>* td,th {
+    border: solid 1px #d5dfec;
+    border-collapse: collapse;
+    height: 40px;
+}
