@@ -436,8 +436,8 @@ body {
 .container__specisifacions {
     max-width: 1920px;
     margin: 0 auto;
-    background-image: url(../img/background__specifications.jpg);
-    background-repeat: no-repeat;
+    background: url(../img/background__specifications.jpg) center no-repeat;
+    background-size: cover;
 }
 .container__table {
     max-width: 1225px;
@@ -473,7 +473,7 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     color: #fff;
-    background: url(../img/backtable.jpg);
+    background: url(../img/background_table_title.jpg);
 }
 .table__content {
     font-size: 14px;
