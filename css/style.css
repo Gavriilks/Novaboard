@@ -496,3 +496,110 @@ body {
     padding-right: 10px;
     text-align: start;
 }
+
+/***********block tasks************/
+.container__tasks {
+    max-width: 1920px;
+    margin: 0 auto;
+    background: url(../img/background_tasks.jpg) center no-repeat;
+    background-size: cover;
+}
+.container__tasks__inner {
+    margin: 0 auto;
+    max-width: 1225px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.tasks__title {
+    margin: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #01983b;
+    font-family: EuropeExt;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container__tasks__list {
+    width: 980px;
+    margin: 0 auto;
+    list-style: none;
+    text-transform: inherit;
+    font-size: 14px;
+    color: #fff;
+    padding: 0px;
+}
+.tasks__list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.list__right {
+    padding-left: 10px;
+}
+.list__left__cor {
+    display: flex;
+    align-items: center;
+    background-color: #ff0000;
+    width: 370px;
+    min-height: 40px;
+    position: relative;
+}
+.list__left__cor::before,
+.list__left__cor::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 60px;
+    height: 100%;
+}
+.list__left__cor::before {
+    left: -60px;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.list__left__cor::after {
+    left: -120px;
+    background-color: rgba(255, 0, 0, 0.25);
+}
+.list__right__cor {
+    display: flex;
+    align-items: center;
+    background-color: #01983b;
+    width: 600px;
+    min-height: 40px;
+    position: relative;
+}
+.list__right__cor::before,
+.list__right__cor::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 60px;
+    height: 100%;
+}
+.list__right__cor::before {
+    left: 600px;
+    background-color: rgba(1, 152, 59, 0.5);
+}
+.list__right__cor::after {
+    left: 660px;
+    background-color: #bfe5ce
+}
+.smile__list__left {
+    padding-left: 15px;
+}
+.smile__list__right {
+    padding-left: 15px;
+}
+.content__list__left {
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 28px;
+}
+.content__list__right {
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 23px;
+}
