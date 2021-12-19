@@ -603,3 +603,48 @@ body {
     padding-bottom: 10px;
     padding-left: 23px;
 }
+
+/**********block certifications*********/
+
+.container__certifications {
+    max-width: 1920px;
+    height: 500px;
+}
+.certifications__logo {
+    margin: 0 auto;
+    max-width: 111px;
+    padding-bottom: 45px;
+    padding-top: 10px;
+}
+.certifications__title {
+    margin: 0;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #2c2783;
+    font-family: EuropeExt;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.gallery__certifications {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.gallery__core {
+    width: 144px;
+    height: 205px;
+}
+.certifications__info {
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+    color: #2c2783;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/**********block contacts*********/
