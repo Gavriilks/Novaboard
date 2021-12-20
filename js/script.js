@@ -2,9 +2,9 @@
 
 $(document).ready(function(){
     $('.js-slick').slick({
-      arrows: false,
+      arrows: true,
       dots: true,
       autoplay: true,
-      autoplayspeed: 4500
+      autoplayspeed: 4500,
     });
   });
