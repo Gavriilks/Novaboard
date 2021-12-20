@@ -608,7 +608,7 @@ body {
 
 .container__certifications {
     max-width: 1920px;
-    height: 500px;
+    margin: 0 auto;
 }
 .certifications__logo {
     margin: 0 auto;
@@ -648,3 +648,99 @@ body {
 }
 
 /**********block contacts*********/
+.container__maps {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.container__contacts {
+    max-width: 1225px;
+    height: 206px;
+    margin: 0 auto;
+    background: url(../img/background__contacts.png);
+}
+.title__contacts {
+    margin: 0px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: EuropeExt;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+.contacts {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+}
+.contacts__adress {
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.contacts__tel {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+/**********footer*********/
+.container__footer {
+    max-width: 1920px;
+    height: 320px;
+    margin: 0 auto;
+    background: url(../img/background__footer.jpg) center no-repeat;
+    background-size: cover;
+}
+.social__footer {
+    max-width: 980px;
+    margin: 0 auto;
+}
+.logo__footer_core {
+    max-width: 47px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+.title__footer__core {
+    max-width: 335px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+.footer__date {
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+.footer__text {
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+.footer__links {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.footer__icon__in {
+    padding-right: 8px;
+}
+.link__developer {
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: block;
+}
