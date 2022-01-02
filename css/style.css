@@ -62,8 +62,8 @@ body {
     border-top: solid 2px;
     border-bottom: solid 2px #f2f5f7;
 }
-/*----------presentation info-------------*/
 
+/*----------presentation info-------------*/
 
 .container__presentation {
     margin: 0 auto;
@@ -102,20 +102,33 @@ body {
     color: #01983b;
     font-family: Arial, Helvetica, sans-serif;
 }
+.presentation__icon__in {
+    padding-right: 5px;
+}
 .presentation__icon__in:hover {
     zoom: 120%;
 }
-.presentation__icon__vk {
-    padding: 5px;
-}
 .presentation__icon__vk:hover {
     zoom: 120%;
+}
+.presentation__icon__in:active {
+    opacity: 0.60;
+}
+.presentation__icon__vk:active {
+    opacity: 0.60;
 }
 .presentation__number {
     font-size: 18px;
     font-weight: 700;
     color: #2c2783;
     text-decoration: none;
+}
+.presentation__number:hover {
+    color: #2c2783;
+    opacity: 80%;
+}
+.presentation__number:active {
+    color: #762020;
 }
 .presentation__search {
     position: relative;
@@ -145,6 +158,7 @@ body {
 .search__button:hover {
     zoom: 120%;
 }
+
 /*----------presentation slider-------------*/
 
 .container__slider {
@@ -167,7 +181,7 @@ body {
     height: 140px;
     width: 770px;
     background: rgba(0, 0, 0, 40%);
-    font-family: EuropeExt;
+    font-family: EuropeExt, arial, sans-serif;
 }
 .slider__content__title {
     padding-left: 25px;
@@ -204,6 +218,17 @@ body {
 .slick-dots .slick-active {
     background-color: #01983b;
 }
+.slick-prev {
+    left: -45px;
+}
+.slick-prev::before {
+    font-size: 40px;
+    color: black;
+}
+.slick-next::before {
+    font-size: 40px;
+    color: black;
+}
 
 /*-------------penopolisterol block--------------*/
 
@@ -230,7 +255,7 @@ body {
     margin: 0;
     text-align: center;
     text-transform: uppercase;
-    font-family: EuropeExt;
+    font-family: EuropeExt, arial, sans-serif;
     font-weight: 700;
     font-size: 30px;
     color: #073d79;
@@ -258,7 +283,7 @@ body {
     border: 0;
     border-radius: 3px;
     box-shadow: 0px 2px 4px 2px #909090;
-    font-family: EuropeExt;
+    font-family: EuropeExt, arial, sans-serif;
     font-weight: 700;
     font-size: 24px;
     color: #ffffff;
@@ -297,7 +322,7 @@ body {
     text-align: center;
     font-size: 30px;
     color: #073d79;
-    font-family: EuropeExt;
+    font-family: EuropeExt, arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -462,6 +487,7 @@ body {
 }
 
 /*-----------block-table------------*/
+
 .container__specisifacions {
     max-width: 1920px;
     margin: 0 auto;
@@ -492,7 +518,7 @@ body {
     padding-bottom: 20px;
     text-align: center;
     text-transform: uppercase;
-    font-family: EuropeExt;
+    font-family: EuropeExt, arial, sans-serif;
     font-weight: 700;
     font-size: 30px;
     color: #01983b;
@@ -527,6 +553,7 @@ body {
 }
 
 /***********block tasks************/
+
 .container__tasks {
     max-width: 1920px;
     margin: 0 auto;
@@ -545,7 +572,7 @@ body {
     text-align: center;
     font-size: 30px;
     color: #01983b;
-    font-family: EuropeExt;
+    font-family: EuropeExt, arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -651,7 +678,7 @@ body {
     text-align: center;
     font-size: 30px;
     color: #2c2783;
-    font-family: EuropeExt;
+    font-family: EuropeExt, arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -677,6 +704,7 @@ body {
 }
 
 /**********block contacts*********/
+
 .container__maps {
     max-width: 1920px;
     margin: 0 auto;
@@ -693,7 +721,7 @@ body {
     padding-bottom: 20px;
     text-align: center;
     font-size: 30px;
-    font-family: EuropeExt;
+    font-family: EuropeExt, arial, sans-serif;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
@@ -714,8 +742,19 @@ body {
     font-size: 14px;
     color: #fff;
 }
+.contacts__tel:hover {
+    opacity: 50%;
+}
+.contacts__tel:active {
+    color: rgb(0, 0, 0);
+    opacity: 50%;
+}
+.maps__core {
+    display: block;
+}
 
 /**********footer*********/
+
 .container__footer {
     max-width: 1920px;
     height: 320px;
@@ -761,7 +800,26 @@ body {
     padding-bottom: 100px;
 }
 .footer__icon__in {
-    padding-right: 8px;
+   padding: 4px
+}
+.footer__icon__in:hover {
+    zoom: 120%;
+}
+.footer__icon__in:active {
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.35;
+}
+.footer__icon__vk {
+    padding: 4px;
+}
+.footer__icon__vk:hover {
+    zoom: 120%;
+}
+.footer__icon__vk:active {
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.35;
 }
 .link__developer {
     text-decoration: none;
@@ -772,4 +830,11 @@ body {
     text-transform: uppercase;
     margin: 0 auto;
     display: block;
+}
+.link__developer:hover {
+    opacity: 50%;
+}
+.link__developer:active {
+    color: rgb(0, 0, 0);
+    opacity: 50%;
 }
