@@ -55,12 +55,18 @@ body {
     border-top: solid 2px;
     border-bottom: solid 2px #f2f5f7;
 }
+.menu__inner:active {
+    opacity: 50%;
+    transition: 0.1s;
+}
 .js-menu-active {
     transition: 0.2s linear;
     padding-top: 7px;
     padding-bottom: 7px;
     border-top: solid 2px;
     border-bottom: solid 2px #f2f5f7;
+    opacity: 50%;
+    transition: 0.1s;
 }
 
 /*----------presentation info-------------*/
